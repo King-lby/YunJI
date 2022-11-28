@@ -9,7 +9,7 @@ export default defineConfig({
     port:5001,//自定义端口号
     proxy: {
       "/yunji-api": {
-        target: "https://www.fastmock.site/mock/9f7ebb6e301e84895aa1f53cf9e081bc/yunji-api/mygirlfriend",
+        target: "https://www.fastmock.site/mock/9f7ebb6e301e84895aa1f53cf9e081bc/yunji-api",
         changeOrigin: true,
       
       },

@@ -4,7 +4,7 @@ export default  {
 
     upload:{
         name:"上传图片",
-        url:"/imgserver-api/tuku/upload",
+        url:"/imgserver-api/upload",
         call: async function (params:any = {}) {
              return await http.get(this.url,params);
         }
@@ -12,7 +12,7 @@ export default  {
     },
     select:{
         name:"图库查询",
-        url:"/tuku-api/tuku/select",
+        url:"/imgserver-api/select",
         call: async function (params:any = {}) {
              return await http.get(this.url,params);
         }

@@ -18,13 +18,13 @@ export default  {
         }
 
     },
-    add:{
-        name:"图库添加",
-        url:"/tuku-api/tuku/add",
-        call: async function (params:any) {
-             return await http.post(this.url,params);
-        }
-    },
+    // add:{
+    //     name:"图库添加",
+    //     url:"/tuku-api/tuku/add",
+    //     call: async function (params:any) {
+    //          return await http.post(this.url,params);
+    //     }
+    // },
    
 
 }

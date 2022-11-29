@@ -14,9 +14,9 @@ export default defineConfig({
       
       },
       "/imgserver-api": {
-        target: "http://123.57.206.19:8083/",
+        target: "http://123.57.206.19:8083",
         changeOrigin: true,
-      
+
       },
     },
   },

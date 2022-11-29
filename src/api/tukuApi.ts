@@ -6,7 +6,7 @@ export default  {
         name:"上传图片",
         url:"/imgserver-api/upload",
         call: async function (params:any = {}) {
-             return await http.get(this.url,params);
+             return await http.post(this.url,params);
         }
 
     },

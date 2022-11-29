@@ -15,7 +15,7 @@
         <el-image style="width: 100px; height: 100px" :src="item.img" />
   
       </el-col>
-  
+    
     </el-row>
   </template>
   
